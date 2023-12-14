@@ -1,0 +1,621 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Assets&Sequence_20",
+        "AssetValue&Sequence_19",
+        "obj_mails&Sequence_16",
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2",
+        "dt_SettingsAndConstants&Sequence_12",
+        "dt_Assets&Sequence_14",
+        "AssetValue&Sequence_15"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExcelFilePath&Sequence_1",
+        "CurentMailFolderPath&Sequence_1",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_9",
+        "tSeqStartTime&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Navigation/initialization/ContactCarsInitlization.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Navigation/initialization/NavigateToAdvancedSearch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_SearchButtonExists&Sequence_10",
+        "FlagAdvancedFilter&Sequence_13",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "temp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "BrandName&Sequence_1",
+        "ModlesName&Sequence_1",
+        "str_BrandSelectorAaname&Sequence_2",
+        "FlagShowAll&Sequence_2",
+        "str_ButtonClassAttribute&Sequence_2",
+        "str_CurrentModelName&Sequence_15",
+        "str_BrandSelectorAaname&Sequence_5",
+        "FlagShowAll&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SelectBrandName.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "BrandName&Sequence_1",
+        "strBrandAaname&Sequence_16",
+        "boolBrandExists&Sequence_16",
+        "str_ButtonClassAttribute&Sequence_12",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/ClickShowAllButton.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FlagShowAll&Sequence_2",
+        "str_AnchorAaname&Sequence_2",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ParantName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SelectModelsName.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_Models&Sequence_8",
+        "strSeqName&Sequence_5",
+        "tSeqStartTime&Sequence_5",
+        "str_CurrentModelName&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SelectLocation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_Locations&Sequence_11",
+        "GovernorateAaname&Sequence_4",
+        "CityAaname&Sequence_10",
+        "GovernorateName&Sequence_4",
+        "strSeqName&Sequence_5",
+        "tSeqStartTime&Sequence_5",
+        "str_CurrentModelName&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SetPrice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "str_Price&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SetProductionYear.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_ProductionYear&Sequence_3",
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SetKilometer.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2",
+        "str_Kilometers&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SetDownPayment.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_DownPayment&Sequence_3",
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SelectTransmission.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_TransmissionSectionExists&Sequence_4",
+        "str_Transmission&Sequence_11",
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SelectBodyType.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "BudyTuype&Sequence_5",
+        "str_BodyType&Sequence_3",
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/SelectFuelType.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FuelType&Sequence_4",
+        "str_FuelType&Sequence_3",
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SelectProductionCountry.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_Country&Sequence_4",
+        "str_ProductionCountry&Sequence_3",
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SetStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_Status&Sequence_9",
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SetEngineCapacity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "EngineCapacityAaname&Sequence_3",
+        "str_EngineCapacity&Sequence_2",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SetAdditionalProperties.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_CurrentAdditionalProperties&Sequence_3",
+        "str_AdditionalProperties&Sequence_2",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/ClickShowAllFilterResult.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/ClickRestFilter.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/FillAdvancedSearchData/SelectFuelType.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2",
+        "str_FuelType&Sequence_3",
+        "FuelType&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Read/ScrapingResults.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "CarsList&Sequence_1",
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "temp2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1",
+        "int_MaxNumberOfResults&Sequence_1",
+        "str_CurrentPageUrl&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/mail/RplayWithReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SheetNamesList&Sequence_12",
+        "OriginalDataDT&Sequence_12",
+        "str_MailMessage&Sequence_13",
+        "str_MailSubject&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ExcelFilePath",
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Read/ExtratAllData/ScrappingDataItemByItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_NextPageSelector&Sequence_50",
+        "bool_NextPageExists&Sequence_50",
+        "ScrappedDataCSVFilePath&Sequence_52",
+        "bool_NoData&Sequence_48",
+        "str_CurrentPageUrl&Sequence_3",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1",
+        "out_ResultsDT&Sequence_1",
+        "ExtractDataTable&Sequence_3",
+        "RowDataTableListValues&Sequence_3",
+        "ColumnsName&Sequence_3",
+        "str_MoreInformation&Sequence_3",
+        "str_Price&Sequence_3",
+        "str_DownPayment&Sequence_3",
+        "str_Status&Sequence_3",
+        "str_ProductionYear&Sequence_3",
+        "str_ModelName&Sequence_3",
+        "str_BrandName&Sequence_3",
+        "AdditionalProperties&Sequence_3",
+        "str_Transmission&Sequence_3",
+        "str_Kilometers&Sequence_3",
+        "str_City&Sequence_3",
+        "str_Governorate&Sequence_3",
+        "str_BodyType&Sequence_3",
+        "str_FuelType&Sequence_3",
+        "str_Color&Sequence_3",
+        "str_EngineCapacity&Sequence_3",
+        "int_MaxNumberOfResults&Sequence_3",
+        "ExtractDataTable1&Sequence_45"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Str_SortedBy",
+        "in_ItemFolderPath",
+        "in_CarNumber",
+        "out_ExcelFilePath",
+        "in_str_MaxNumberOfOutput"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Write/Recreate Original Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DataTable&Sequence_1",
+        "ColumnNamesList&Sequence_1",
+        "DataRowValuesList&Sequence_1",
+        "bool_ExcelFileExists&Sequence_1",
+        "SheetNamesList&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ExcelFilePath",
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Navigation/SignIn/NavigateToSignInPage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_LoginExists&Sequence_8",
+        "bool_InputFieldExists&Sequence_8",
+        "bool_SignInExists&Sequence_3",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Navigation/SignIn/SignInAction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_MaxNumber&Sequence_11",
+        "bool_MyAccountIconExists&Sequence_8",
+        "bool_InputFieldExists&Sequence_2",
+        "bool_LoginExists&Sequence_2",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_str_PhoneNumber"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Navigation/Signout/SignOutAction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_SignInExists&Sequence_8",
+        "bool_MyAccountIconExists&Sequence_2",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/ContactCars/Navigation/SignIn/WaitUntilHumanResponse.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_StillExists&State_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

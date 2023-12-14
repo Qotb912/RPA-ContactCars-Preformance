@@ -1,0 +1,41 @@
+﻿Brand + chevron_right
+Location + chevron_right
+
+in_TransactionItem.SpecificContent("Location")
+
+in_TransactionItem.SpecificContent("Transmission").ToString.Trim
+
+
+<html app='msedge.exe' title='Advanced search in Cars | Contactcars' />
+
+1500,20000
+
+Fabrika In&amp;Out
+
+Click 'INPUT  3': Could not find the UI element corresponding to this selector:
+[1] <webctrl aaname='Alexandriachevron_right' tag='BUTTON'/>
+[2] <webctrl id='3' tag='INPUT'/>
+
+Search failed at selector tag:
+[2] <webctrl id='3' tag='INPUT'/>
+
+The closest matches found are:
+[50%] <webctrl id='5' tag='INPUT'/>
+
+
+Cars
+///////
+
+Location,Premium,Brand_Model,Bluk_Price_DP,Year,Bluk_2,Url
+"Status","Brand Name","Model","Governorate","City","Price","Body Type","Fuel Type","Transmission","Production Year",
+"Down Payment","Engine Capacity","Origin Country","Kilometers","Color","Additional Properties"
+
+{CurrentRow("Url").ToString,str_Status,str_BrandName,str_ModelName,str_Governorate,str_City,str_Price,Nothing,Nothing,str_Transmission,
+str_ProductionYear,str_DownPayment,Nothing,Nothing,str_Kilometers,Nothing,String.Join(" , ",AdditionalProperties),If(str_MoreInformation.Replace(" ","").Length =0,Nothing,str_MoreInformation)}
+
+
+
+Down Payment,Min,DP
+
+
+whitespace-nowrap
